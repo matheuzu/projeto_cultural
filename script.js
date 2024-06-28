@@ -1,19 +1,8 @@
-
-let idx = 0;
-
-function carrousel(direction) {
-    const imgs = document.getElementById(`carrossel`)
-    const img = imgs.querySelectorAll(".container img")
-        
-    if(direction == "direita") {
-        idx--;
+const nav = document.querySelector("nav");
+window.addEventListener('scroll', ()=> {
+    if(window.scrollY>=100) {
+        nav.classList.add("nav_black");
     } else {
-        idx++;
+        nav.classList.remove("nav_black");
     }
-    
-    if(idx <= -img.length + 1) { idx ++; }
-    if(idx >= 1) { idx --; }
-
-    imgs.style.transform = `translateX(${idx * 200}px)`
-
-}
+})

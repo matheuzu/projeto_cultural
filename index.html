@@ -7,30 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <h1>RiberinhoFlix</h1>
+    </nav>
+    <header>
 
-    <h1>RiberinhoFlix</h1>
+        <div class="banner_contents">
+            <h1 class="banner_title">Titulo da serie</h1>
+            <div class="banner_buttons">
+                <button class="banner_button">
+                    Assistir
+                </button>
+            </div>
+            <p class="banner_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci impedit doloribus laboriosam corrupti minus possimus placeat animi voluptatum. Aliquid possimus at voluptate nostrum, distinctio necessitatibus nemo nam incidunt nihil est?</p>
+        </div>
+        <div class="banner_fadeBottom"></div>
+    </header>
 
     <main>
-
-        <div class="linha">
-
-            <div class="controller">
-                <button onclick="carrousel('esquerda')" class="scroll left"></button>
-                <button onclick="carrousel('direita')" class="scroll right"></button>
-            </div>
-
+        <div class="row">
+            <h2>Filmes</h2>
             <div id="carrossel" class="carrossel" >
                 
-                <div class="container">
-                    <img src="imagens/capa_demo.png" alt="Capa do Filme 1" onclick="abrirModal('Filme 1', 'Sinopse do Filme 1')" class="poster">
-                    <img src="imagens/bobmarley.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                    <img src="imagens/sonic.jpeg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                    <img src="imagens/barbie.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                    <img src="imagens/capa_demo.png" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                </div>
-
+                <img src="imagens/capa_demo.png" alt="Capa do Filme 1" onclick="abrirModal('Filme 1', 'Sinopse do Filme 1')" class="poster">
+                <img src="imagens/bobmarley.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
+                <img src="imagens/sonic.jpeg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
+                <img src="imagens/barbie.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
+                <img src="imagens/capa_demo.png" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
+                <img src="imagens/bobmarley.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
+                <img src="imagens/sonic.jpeg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
+                <img src="imagens/barbie.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
+                 
             </div>   
-
         </div>
 
     </main>
@@ -40,7 +48,7 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+   <script src="script.js"></script>
 
   <script>
         function abrirModal(titulo, sinopse) {
