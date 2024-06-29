@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmes Ribeirinhos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
 </head>
 <body>
     <nav>
@@ -29,34 +30,26 @@
             <h2>Filmes</h2>
             <div id="carrossel" class="carrossel" >
                 
-                <img src="imagens/capa_demo.png" alt="Capa do Filme 1" onclick="abrirModal('Filme 1', 'Sinopse do Filme 1')" class="poster">
-                <img src="imagens/bobmarley.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                <img src="imagens/sonic.jpeg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                <img src="imagens/barbie.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                <img src="imagens/capa_demo.png" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                <img src="imagens/bobmarley.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                <img src="imagens/sonic.jpeg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
-                <img src="imagens/barbie.jpg" alt="Capa do Filme 2" onclick="abrirModal('Filme 2', 'Sinopse do Filme 2')" class="poster">
+                <img src="imagens/capa_demo.png" alt="Capa do Filme 1" onclick="abrirModal(0)" class="poster">
+                <img src="imagens/bobmarley.jpg" alt="Capa do Filme 2" onclick="abrirModal(0)" class="poster">
+                <img src="imagens/sonic.jpeg" alt="Capa do Filme 2" onclick="abrirModal(0)" class="poster">
+                <img src="imagens/barbie.jpg" alt="Capa do Filme 2" onclick="abrirModal(0)" class="poster">
+                <img src="imagens/capa_demo.png" alt="Capa do Filme 2" onclick="abrirModal(0)" class="poster">
+                <img src="imagens/bobmarley.jpg" alt="Capa do Filme 2" onclick="abrirModal(0)" class="poster">
+                <img src="imagens/sonic.jpeg" alt="Capa do Filme 2" onclick="abrirModal(0)" class="poster">
+                <img src="imagens/barbie.jpg" alt="Capa do Filme 2" onclick="abrirModal(0)" class="poster">
                  
             </div>   
         </div>
 
     </main>
-    
+
     <div class="modal" id="modal">
         <div class="modal-content" id="modal-content">
         </div>
     </div>
 
-   <script src="script.js"></script>
-
-  <script>
-        function abrirModal(titulo, sinopse) {
-            const modal = document.getElementById('modal');
-            const modalContent = document.getElementById('modal-content');
-            modalContent.innerHTML = `<h2>${titulo}</h2><p>${sinopse}</p>`;
-            modal.style.display = 'block';
-        }
-    </script>
+    <script src="db.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
