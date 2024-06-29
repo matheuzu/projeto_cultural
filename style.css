@@ -91,7 +91,7 @@ header {
 .carrossel {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     overflow-y: hidden;
     overflow-x: scroll;
     
