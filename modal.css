@@ -36,7 +36,8 @@
 .modal-content img {
     grid-column: 1/3;
     padding: 15px 30px;
-    width: 220px
+    width: 220px;
+    justify-self: center;
 }
 
 .modal-content .watch{ 
