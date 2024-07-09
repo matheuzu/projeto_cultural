@@ -29,8 +29,9 @@ nav h1 {
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-image: url("imagens/capa_inicio.png") ;
+    color: white;   
+    background-position: center top;
     object-fit: contain;
     height: 448px;
 }
@@ -44,6 +45,8 @@ header {
 .banner_title {
     font-size: 3rem;
     font-weight: 800;
+    color: red;
+
     padding-bottom: 0.3rem;
 }
 
