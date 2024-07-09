@@ -18,13 +18,13 @@ const filmes = [{
 },
 {
     titulo: "A menina da ilha", 
-    sinopse: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem excepturi est molestias iure natus sunt voluptate, alias similique hic, perspiciatis, amet in fugiat quae impedit. Blanditiis dolorum eum officia dicta?",
+    sinopse: "O curta-metragem mostra as belezas do Rio São Francisco, a lenda da mãe 'água, a ilha de São Félix e seus atrativos turísticos, e ainda os dramas vívidos por uma menina, que sonha em ser cantora.",
     imgURL: "imagens/a_menina_da_ilha.png",
     link:"https://www.youtube.com/watch?v=78sIZhEVpKw"
 },
 {
     titulo: "O menino que tinha medo do rio", 
-    sinopse: "O curta-metragem mostra as belezas do Rio São Francisco, a lenda da mãe 'água, a ilha de São Félix e seus atrativos turísticos, e ainda os dramas vívidos por uma menina, que sonha em ser cantora.",
+    sinopse: "",
     imgURL: "imagens/o_menino_que_tinha_medo_do_rio.png",
     link:"https://vimeo.com/439277177"
 }
