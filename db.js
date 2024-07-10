@@ -24,7 +24,7 @@ const filmes = [{
 },
 {
     titulo: "O menino que tinha medo do rio", 
-    sinopse: "",
+    sinopse: "O jovem Inácio vive com sua avó em uma comunidade no interior, seus pais morreram afogados no rio e desde então o garoto tem medo de se aproximar das águas, até que em um dia, ele recebe um chamado",
     imgURL: "imagens/o_menino_que_tinha_medo_do_rio.png",
     link:"https://vimeo.com/439277177"
 }
